@@ -11,7 +11,7 @@
 # you may customize this
 # ######################
 
-MESH_NAME="my_mesh"
+MESH_NAME="Parkway_mesh"
 MESH_PWD="T0psecret"
 MESH_RADIO=radio0
 MESH_CHANNEL=1
@@ -25,7 +25,7 @@ WIFI_MOBDOMAIN='1234'
 # install the wpad mesh package
 
 opkg update
-opkg install --force-overwrite wpad-mesh-openssl
+opkg install --force-overwrite wpad-mesh-mbedtls
 
 # delete the "OpenWrt" radios
 
